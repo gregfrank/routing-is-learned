@@ -1,0 +1,17 @@
+{
+  "atoms_per_concept": 2,
+  "bank_lambda": 0.01,
+  "dataset_info": {
+    "num_pairs": 120,
+    "source": "curated_local+harmbench"
+  },
+  "device": "mps",
+  "layers": [
+    9,
+    18,
+    30
+  ],
+  "model_id": "Qwen/Qwen3-8B",
+  "seed": 42,
+  "trials": 12
+}

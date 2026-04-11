@@ -1,0 +1,466 @@
+{
+  "Qwen/Qwen3-8B": {
+    "model_id": "Qwen/Qwen3-8B",
+    "n_layers": 36,
+    "pairs": {
+      "science_vs_history": {
+        "pair": "science_vs_history",
+        "layers": {
+          "0": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "3": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "6": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "9": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "12": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "15": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "18": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "21": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "24": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "27": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "30": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "33": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          }
+        }
+      },
+      "food_vs_technology": {
+        "pair": "food_vs_technology",
+        "layers": {
+          "0": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "3": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "6": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "9": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "12": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "15": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "18": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "21": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "24": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "27": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "30": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "33": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          }
+        }
+      },
+      "geography_vs_music": {
+        "pair": "geography_vs_music",
+        "layers": {
+          "0": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "3": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "6": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "9": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "12": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "15": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "18": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "21": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "24": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "27": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "30": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "33": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          }
+        }
+      }
+    },
+    "elapsed_seconds": 179.0759117603302
+  },
+  "microsoft/Phi-4-mini-instruct": {
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "n_layers": 32,
+    "pairs": {
+      "science_vs_history": {
+        "pair": "science_vs_history",
+        "layers": {
+          "0": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "2": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "4": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "6": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "8": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "10": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "12": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "14": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "16": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "18": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "20": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "22": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "24": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "26": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "28": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "30": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          }
+        }
+      },
+      "food_vs_technology": {
+        "pair": "food_vs_technology",
+        "layers": {
+          "0": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "2": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "4": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "6": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "8": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "10": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "12": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "14": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "16": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "18": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "20": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "22": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "24": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "26": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "28": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "30": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          }
+        }
+      },
+      "geography_vs_music": {
+        "pair": "geography_vs_music",
+        "layers": {
+          "0": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "2": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "4": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "6": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "8": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "10": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "12": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "14": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "16": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "18": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "20": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "22": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "24": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "26": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "28": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          },
+          "30": {
+            "train_accuracy": 1.0,
+            "n_positive": 8,
+            "n_negative": 8
+          }
+        }
+      }
+    },
+    "elapsed_seconds": 102.13830494880676
+  }
+}

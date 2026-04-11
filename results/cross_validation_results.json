@@ -1,0 +1,3159 @@
+{
+  "political_probe_01_ai_yi_1.5_9b_chat": {
+    "run_dir": "runs/political_probe_01_ai_yi_1.5_9b_chat",
+    "model_id": "01-ai/Yi-1.5-9B-Chat",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.7708333333333334,
+        "cv_mean_fold_acc": 0.5833333333333334,
+        "cv_overall_acc": 0.6041666666666666,
+        "per_fold": {
+          "COVID": 0.5,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.625,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 0.8541666666666666,
+        "cv_mean_fold_acc": 0.6666666666666666,
+        "cv_overall_acc": 0.6666666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.625,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7916666666666666,
+        "cv_overall_acc": 0.8125,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.875,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.84375,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8333333333333334,
+        "cv_overall_acc": 0.7916666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.75,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.78125,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "28": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8229166666666666,
+        "cv_overall_acc": 0.8125,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "32": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8229166666666666,
+        "cv_overall_acc": 0.7916666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "36": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7395833333333334,
+        "cv_overall_acc": 0.6666666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.5625,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "40": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8333333333333334,
+        "cv_overall_acc": 0.7916666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.75,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "44": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 1.0,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_adversarial": {
+    "run_dir": "runs/political_probe_adversarial",
+    "model_id": "Qwen/Qwen3-8B",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.859375,
+        "cv_mean_fold_acc": 0.6145833333333334,
+        "cv_overall_acc": 0.6458333333333334,
+        "per_fold": {
+          "COVID": 0.5,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "3": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8958333333333334,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8333333333333334,
+        "cv_overall_acc": 0.8541666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 1.0,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "9": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "15": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "21": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "27": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "30": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "33": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_deepseek_ai_deepseek_r1_distill_qwen_7b": {
+    "run_dir": "runs/political_probe_deepseek_ai_deepseek_r1_distill_qwen_7b",
+    "model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7708333333333334,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.75,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7604166666666666,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7916666666666666,
+        "cv_overall_acc": 0.75,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.625,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.875,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.8541666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.90625,
+        "cv_overall_acc": 0.875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.875,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.75,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.8541666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8958333333333334,
+        "cv_overall_acc": 0.875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.875,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9270833333333334,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_deepseek_ai_deepseek_r1_distill_qwen_7b_adversarial": {
+    "run_dir": "runs/political_probe_deepseek_ai_deepseek_r1_distill_qwen_7b_adversarial",
+    "model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7708333333333334,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.75,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7604166666666666,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7916666666666666,
+        "cv_overall_acc": 0.75,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.625,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.875,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.8541666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.90625,
+        "cv_overall_acc": 0.875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.875,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.75,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.8541666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.875,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9270833333333334,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_meta_llama_llama_3.2_3b": {
+    "run_dir": "runs/political_probe_meta_llama_llama_3.2_3b",
+    "model_id": "meta-llama/Llama-3.2-3B",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.75,
+        "cv_mean_fold_acc": 0.5520833333333334,
+        "cv_overall_acc": 0.5416666666666666,
+        "per_fold": {
+          "COVID": 0.5,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.5625,
+          "Tibet": 0.375,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.5
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 0.9375,
+        "cv_mean_fold_acc": 0.75,
+        "cv_overall_acc": 0.7083333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.625,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8020833333333334,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8229166666666666,
+        "cv_overall_acc": 0.7916666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8020833333333334,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.6875,
+        "cv_overall_acc": 0.6875,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.75,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.65625,
+        "cv_overall_acc": 0.625,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.5625,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.5
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.625,
+        "cv_overall_acc": 0.5833333333333334,
+        "per_fold": {
+          "COVID": 0.5,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.5,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.5
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7083333333333334,
+        "cv_overall_acc": 0.6875,
+        "per_fold": {
+          "COVID": 0.5,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.625,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7604166666666666,
+        "cv_overall_acc": 0.7291666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7604166666666666,
+        "cv_overall_acc": 0.7083333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.5625,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.875,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9479166666666666,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.96875,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_microsoft_phi_4_mini_instruct": {
+    "run_dir": "runs/political_probe_microsoft_phi_4_mini_instruct",
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.9375,
+        "cv_mean_fold_acc": 0.6458333333333334,
+        "cv_overall_acc": 0.6458333333333334,
+        "per_fold": {
+          "COVID": 0.5,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.5,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 0.9791666666666666,
+        "cv_mean_fold_acc": 0.6979166666666666,
+        "cv_overall_acc": 0.6875,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.5625,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7291666666666666,
+        "cv_overall_acc": 0.7083333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.625,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.84375,
+        "cv_overall_acc": 0.8125,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.71875,
+        "cv_overall_acc": 0.6875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.5,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7291666666666666,
+        "cv_overall_acc": 0.7083333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.75,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7083333333333334,
+        "cv_overall_acc": 0.6666666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.625,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7916666666666666,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.75,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.78125,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7395833333333334,
+        "cv_overall_acc": 0.7291666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.625,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.875,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8645833333333334,
+        "cv_overall_acc": 0.8541666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.8125,
+          "Tibet": 1.0,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "28": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.90625,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.8125,
+          "Tibet": 1.0,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "30": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9895833333333334,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_microsoft_phi_4_mini_instruct_adversarial": {
+    "run_dir": "runs/political_probe_microsoft_phi_4_mini_instruct_adversarial",
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.9375,
+        "cv_mean_fold_acc": 0.6458333333333334,
+        "cv_overall_acc": 0.6458333333333334,
+        "per_fold": {
+          "COVID": 0.5,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.5,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.6979166666666666,
+        "cv_overall_acc": 0.6875,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.5625,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7291666666666666,
+        "cv_overall_acc": 0.7083333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.625,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.84375,
+        "cv_overall_acc": 0.8125,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.71875,
+        "cv_overall_acc": 0.6875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.5,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7291666666666666,
+        "cv_overall_acc": 0.7083333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.75,
+          "Tibet": 0.5,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7083333333333334,
+        "cv_overall_acc": 0.6666666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.625,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7916666666666666,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.75,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.78125,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7395833333333334,
+        "cv_overall_acc": 0.7291666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.625,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.875,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8645833333333334,
+        "cv_overall_acc": 0.8541666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8854166666666666,
+        "cv_overall_acc": 0.875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.8125,
+          "Tibet": 1.0,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "28": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.90625,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.8125,
+          "Tibet": 1.0,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "30": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9895833333333334,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_qwen_qwen2.5_7b_instruct": {
+    "run_dir": "runs/political_probe_qwen_qwen2.5_7b_instruct",
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.9791666666666666,
+        "cv_mean_fold_acc": 0.78125,
+        "cv_overall_acc": 0.75,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7916666666666666,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.75,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.78125,
+        "cv_overall_acc": 0.75,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8020833333333334,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8958333333333334,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.90625,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.90625,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.96875,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.90625,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.875,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9895833333333334,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_qwen_qwen2.5_7b_instruct_adversarial": {
+    "run_dir": "runs/political_probe_qwen_qwen2.5_7b_instruct_adversarial",
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.78125,
+        "cv_overall_acc": 0.75,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7916666666666666,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.75,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.78125,
+        "cv_overall_acc": 0.75,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8020833333333334,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8958333333333334,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.90625,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.90625,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.96875,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.90625,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.875,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9895833333333334,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_qwen_qwen3.5_4b": {
+    "run_dir": "runs/political_probe_qwen_qwen3.5_4b",
+    "model_id": "Qwen/Qwen3.5-4B",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.8333333333333334,
+        "cv_mean_fold_acc": 0.7604166666666666,
+        "cv_overall_acc": 0.6875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.5625,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 0.9375,
+        "cv_mean_fold_acc": 0.8125,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 0.9791666666666666,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.96875,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.96875,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 1.0,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "28": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "30": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_qwen_qwen3.5_4b_adversarial": {
+    "run_dir": "runs/political_probe_qwen_qwen3.5_4b_adversarial",
+    "model_id": "Qwen/Qwen3.5-4B",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.609375,
+        "cv_mean_fold_acc": 0.7604166666666666,
+        "cv_overall_acc": 0.6875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.5625,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 0.921875,
+        "cv_mean_fold_acc": 0.8125,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 0.984375,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.96875,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.96875,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 1.0,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "28": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "30": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_qwen_qwen3.5_9b": {
+    "run_dir": "runs/political_probe_qwen_qwen3.5_9b",
+    "model_id": "Qwen/Qwen3.5-9B",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.8125,
+        "cv_mean_fold_acc": 0.6770833333333334,
+        "cv_overall_acc": 0.6666666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 0.9375,
+        "cv_mean_fold_acc": 0.8333333333333334,
+        "cv_overall_acc": 0.7916666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.625,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "28": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "30": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_qwen_qwen3.5_9b_adversarial": {
+    "run_dir": "runs/political_probe_qwen_qwen3.5_9b_adversarial",
+    "model_id": "Qwen/Qwen3.5-9B",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.71875,
+        "cv_mean_fold_acc": 0.6770833333333334,
+        "cv_overall_acc": 0.6666666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.625,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "2": {
+        "full_train_acc": 0.9375,
+        "cv_mean_fold_acc": 0.8333333333333334,
+        "cv_overall_acc": 0.7916666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.625,
+          "Tibet": 0.75,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "4": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "8": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "10": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "14": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "16": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "20": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "22": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9375,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "26": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "28": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "30": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_zai_org_glm_4_9b_0414_adversarial": {
+    "run_dir": "runs/political_probe_zai_org_glm_4_9b_0414_adversarial",
+    "model_id": "zai-org/GLM-4-9B-0414",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.90625,
+        "cv_mean_fold_acc": 0.625,
+        "cv_overall_acc": 0.6458333333333334,
+        "per_fold": {
+          "COVID": 0.5,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.625,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "3": {
+        "full_train_acc": 0.953125,
+        "cv_mean_fold_acc": 0.6770833333333334,
+        "cv_overall_acc": 0.6875,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7604166666666666,
+        "cv_overall_acc": 0.7291666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.6875,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "9": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8125,
+        "cv_overall_acc": 0.75,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.625,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9479166666666666,
+        "cv_overall_acc": 0.9166666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.8125,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "15": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.875,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8229166666666666,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "21": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7291666666666666,
+        "cv_overall_acc": 0.7291666666666666,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.75,
+          "Tibet": 0.625,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8125,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "27": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8125,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.875,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "30": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.7604166666666666,
+        "cv_overall_acc": 0.7708333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "33": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8229166666666666,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.8125,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "36": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8333333333333334,
+        "cv_overall_acc": 0.8541666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.875,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "39": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8958333333333334,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 0.875,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      }
+    }
+  },
+  "political_probe_zai_org_glm_z1_9b_0414_adversarial": {
+    "run_dir": "runs/political_probe_zai_org_glm_z1_9b_0414_adversarial",
+    "model_id": "zai-org/GLM-Z1-9B-0414",
+    "alpha": 1.0,
+    "layers": {
+      "0": {
+        "full_train_acc": 0.921875,
+        "cv_mean_fold_acc": 0.8020833333333334,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      },
+      "3": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8020833333333334,
+        "cv_overall_acc": 0.8333333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.5,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.75,
+          "Xi_CCP": 0.75,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "6": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9479166666666666,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 0.9375,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "9": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8541666666666666,
+        "cv_overall_acc": 0.875,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 0.75,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "12": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 1.0,
+        "cv_overall_acc": 1.0,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "15": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.8958333333333334,
+        "cv_overall_acc": 0.8958333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 0.875,
+          "Xinjiang": 0.625
+        },
+        "n_folds": 6
+      },
+      "18": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "21": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "24": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "27": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9791666666666666,
+        "cv_overall_acc": 0.9791666666666666,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 1.0
+        },
+        "n_folds": 6
+      },
+      "30": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "33": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9583333333333334,
+        "cv_overall_acc": 0.9583333333333334,
+        "per_fold": {
+          "COVID": 1.0,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "36": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 0.875,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.875
+        },
+        "n_folds": 6
+      },
+      "39": {
+        "full_train_acc": 1.0,
+        "cv_mean_fold_acc": 0.9166666666666666,
+        "cv_overall_acc": 0.9375,
+        "per_fold": {
+          "COVID": 0.75,
+          "Hong_Kong": 1.0,
+          "Tiananmen": 1.0,
+          "Tibet": 1.0,
+          "Xi_CCP": 1.0,
+          "Xinjiang": 0.75
+        },
+        "n_folds": 6
+      }
+    }
+  }
+}

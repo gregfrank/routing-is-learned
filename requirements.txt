@@ -1,0 +1,11 @@
+torch
+transformers
+accelerate
+numpy
+scipy
+scikit-learn
+matplotlib
+
+# Optional: enables HarmBench-backed 120-pair ablation corpus
+# Install and set ABLATION_HARMBENCH_ENABLED=true to use
+# datasets
