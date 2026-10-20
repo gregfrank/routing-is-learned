@@ -2,19 +2,11 @@
 
 **Paper:** [arXiv:2603.18280](https://arxiv.org/abs/2603.18280)
 
+The abstract below matches the current arXiv version.
+
 ## Abstract
 
-Ask four language models about Tiananmen Square in Chinese. One produces party propaganda. One gives factual answers. One fabricates. One deflects. All four recognize the political sensitivity of the question with perfect linear-probe accuracy at every layer. So does any model asked to distinguish food from technology. **In high-dimensional hidden spaces with small sample sets, concept detection is computationally trivial.** The question is what happens after detection.
-
-This paper uses political censorship as a natural experiment for studying how post-training alignment modifies transformer internals. Probes, surgical ablations, and behavioral tests across nine open-weight models from five labs yield three main findings:
-
-**First, probe accuracy is non-diagnostic.** Perfect accuracy on political content looks impressive until you run the same probe on food-vs-technology and get the same result. A permutation baseline confirms it: randomly shuffled labels also achieve 100%. The meaningful test is held-out category generalization, not train-set accuracy.
-
-**Second, surgical ablation reveals lab-specific routing.** Removing the political-sensitivity direction eliminates censorship and produces accurate factual output in most models tested. One model confabulates instead, substituting wrong historical events, because its architecture entangles factual knowledge with the censorship mechanism. Different labs organize political and safety representations with markedly different geometry, and directions extracted from one model are meaningless when applied to another. The learned routing is lab- and model-specific.
-
-**Third, refusal is no longer the primary censorship mechanism.** Within one model family, refusal dropped to zero across three generations while narrative steering rose to maximum. Censorship did not decrease; it became invisible to any benchmark that only counts refusals. **For anyone building safety evaluations, this is the critical finding: a model that passes a refusal-based audit may be maximally steered.**
-
-These results support a three-stage descriptive framework of alignment: **detect** a concept (cheap), **route** it through a behavioral policy (learned, lab-specific, fragile), **generate** output accordingly. Models do not lack the knowledge that alignment constrains. They have the knowledge and a learned policy governing how it is expressed. **Current alignment evaluation largely measures the wrong thing:** it audits what models know (detection) or whether they refuse (one output mode), while the routing mechanism that determines behavior goes unmeasured.
+Current alignment evaluation mostly measures whether models encode dangerous concepts and whether they refuse harmful requests. Both miss the layer where alignment often operates: routing from concept detection to behavioral policy. We study political censorship in Chinese-origin language models as a natural experiment, using probes, surgical ablations, and behavioral tests across nine open-weight models from five labs. Three findings follow. First, probe accuracy alone is non-diagnostic: political probes, null controls, and permutation baselines can all reach 100%, so held-out category generalization is the informative test. Second, surgical ablation reveals lab-specific routing. Removing the political-sensitivity direction eliminates censorship and restores accurate factual output in most models tested, while one model confabulates because its architecture entangles factual knowledge with the censorship mechanism. Cross-model transfer fails, indicating that routing geometry is model- and lab-specific. Third, refusal is no longer the dominant censorship mechanism. Within one model family, hard refusal falls to zero while narrative steering rises to the maximum, making censorship invisible to refusal-only benchmarks. These results support a three-stage descriptive framework: detect, route, generate. Models often retain the relevant knowledge; alignment changes how that knowledge is expressed. Evaluations that audit only detection or refusal therefore miss the routing mechanism that most directly determines behavior.
 
 ## Quick Start
 
@@ -93,7 +85,7 @@ Nine models are included in the final paper. Yi-1.5-9B was probed during develop
 
 ## Related Work
 
-The companion paper ["How Alignment Routes: Localizing, Scaling, and Controlling Policy Circuits in Language Models"](https://arxiv.org/abs/2604.04385) (code: [how-alignment-routes](https://github.com/gregfrank/how-alignment-routes)) extends this work with mechanistic circuit-level analysis across 12 models at 2B–72B scale.
+The companion paper ["How Alignment Routes: Localizing, Scaling, and Controlling Policy Circuits in Language Models"](https://arxiv.org/abs/2604.04385) (code: [how-alignment-routes](https://github.com/gregfrank/how-alignment-routes)) extends this work with four-method circuit analyses in three models and operational routing-head screens in nine more (2B–72B).
 
 ## Citation
 
